@@ -1,7 +1,0 @@
-F:\Study\C#\C#Basic\C#Advance\bin\Debug\C#Advance.exe.config
-F:\Study\C#\C#Basic\C#Advance\bin\Debug\C#Advance.exe
-F:\Study\C#\C#Basic\C#Advance\bin\Debug\C#Advance.pdb
-F:\Study\C#\C#Basic\C#Advance\obj\Debug\C#Advance.csproj.AssemblyReference.cache
-F:\Study\C#\C#Basic\C#Advance\obj\Debug\C#Advance.csproj.CoreCompileInputs.cache
-F:\Study\C#\C#Basic\C#Advance\obj\Debug\C#Advance.exe
-F:\Study\C#\C#Basic\C#Advance\obj\Debug\C#Advance.pdb
