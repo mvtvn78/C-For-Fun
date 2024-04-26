@@ -1,23 +1,40 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
 
-namespace BasicCSharp
-{
-    class Nguoi
-    {
-        public string Name { get; set; }
-        public int Age { get; set; }
-        public float Height { get; set; }
-        public float Width { get; set; }
-        public bool IsEqualAge (Nguoi a, Nguoi b ) { return a.Age == b.Age; }
-        public bool IsEqualWidth(Nguoi a, Nguoi b) { return a.Width == b.Width; }
-        public bool IsEqualHeight(Nguoi a, Nguoi b) { return a.Height == b.Height; }
-    }
-    internal class Bai2_Delegate
-    {
+//namespace BasicCSharp
+//{
+    
+//    delegate void ThongBao();
+//    class Students
+//    {
+//        public event ThongBao OnchangeID;
+//        private int _id;
+//        public int Id { get => _id;
+//            set
+//            {
+//                _id = value;
+//                if(OnchangeID != null)
+//                {
+//                    OnchangeID();
+//                }
+//            }
+//        }
+//    }
+//    internal class Bai2_Delegate
+//    {
+//        void Hello()
+//        {
+//            Console.WriteLine("Hello World");
+//        }
+//        static void Main() {
 
-    }
-}
+//            Students students = new Students();
+//            students.OnchangeID += new Bai2_Delegate().Hello;
+//            students.Id = 3;
+//            students.Id = 3;
+//        }
+//    }
+//}
