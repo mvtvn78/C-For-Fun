@@ -3,7 +3,6 @@
 //using System.Linq;
 //using System.Text;
 //using System.Threading.Tasks;
-//using System.Runtime.Serialization.Formatters;
 //using System.Runtime.Serialization.Formatters.Binary;
 //using System.Xml.Serialization;
 //using System.IO;
@@ -17,10 +16,11 @@
 //        public string Name { get; set; }
 //        public Student(SerializationInfo info, StreamingContext context)
 //        {
-//            Name = (string)info.GetValue("Name", typeof(string));
-//            Age = (int)info.GetValue("Age", typeof(int));
+//            Name = (string)info.GetValue("kai", typeof(string));
+//            Age = (int)info.GetValue("kai1", typeof(int));
 //        }
-//        public Student(int _age, string _name) {
+//        public Student(int _age, string _name)
+//        {
 //            Age = _age;
 //            Name = _name;
 //        }
@@ -30,16 +30,16 @@
 //        }
 //        static void Main()
 //        {
-//            Student sd = new Student(20,"Mai Van Tien");
+//            Student sd = new Student(20, "Mai Van Tien");
 //            Stream fs = File.Open("test.bat", FileMode.Create);
 //            BinaryFormatter bf = new BinaryFormatter();
 //            bf.Serialize(fs, sd);
 //            fs.Close();
 
 //            sd = null;
-//            fs = File.Open("test.bat",FileMode.Open);
+//            fs = File.Open("test.bat", FileMode.Open);
 //            bf = new BinaryFormatter();
-//            sd =(Student) bf.Deserialize(fs);
+//            sd = (Student)bf.Deserialize(fs);
 //            fs.Close();
 //            Console.WriteLine(sd);
 //            Console.ReadKey(false);
@@ -47,8 +47,8 @@
 
 //        public void GetObjectData(SerializationInfo info, StreamingContext context)
 //        {
-//            info.AddValue("Name", Name );
-//            info.AddValue("Age", Age);
+//            info.AddValue("kai", Name);
+//            info.AddValue("kai1", Age);
 //        }
 
 //    }

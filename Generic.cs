@@ -22,18 +22,19 @@
 //    {
 //        Method() { }
 //        //Generic Method
-//        static void Add<T> (T t1, T t2)
+//        static void Add<T>(T t1, T t2)
 //        {
 //        }
 //    }
 //    // Interface Generic
-//    interface IClass<T> { 
-    
-//        T add ();
+//    interface IClass<T>
+//    {
+
+//        T add();
 //        T move();
-    
+
 //    }
-//     class A
+//    class A
 //    {
 //        static void Main()
 //        {

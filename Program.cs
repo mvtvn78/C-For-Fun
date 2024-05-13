@@ -1,5 +1,6 @@
-﻿//using Mvt;
+﻿////using Mvt;
 //using System;
+//using System.Collections.Generic;
 //namespace BasicCSharp
 //{
 //    internal class Program
@@ -72,7 +73,17 @@
 //            //Phanso ps3 = ps1 + ps2;
 //            //ps3.dislay();
 
-//            //
+//            // 
+//            List<List<int>> list = new List<List<int>>();
+//            list.Add(new List<int>() { 1,2,3,45});
+//            list.Add(new List<int> { 3, 4, 5, 6, 7 });
+//            foreach(List<int> list2 in list)
+//            {
+//                foreach(int item in list2)
+//                {
+//                    Console.WriteLine(item);
+//                } 
+//            }
 //        }
 //    }
 //}
